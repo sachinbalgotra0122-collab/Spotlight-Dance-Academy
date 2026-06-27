@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPOTLIGHT DANCE ACADEMY</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+}
+
+header{
+background:#000;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:2px solid #d4af37;
+}
+
+.logo{
+color:#d4af37;
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url('poster.jpg') center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.hero-content h1{
+font-size:60px;
+color:#d4af37;
+}
+
+.hero-content p{
+font-size:22px;
+margin-top:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 30px;
+background:#d4af37;
+color:black;
+font-weight:bold;
+border-radius:30px;
+text-decoration:none;
+}
+
+.section{
+padding:60px 20px;
+text-align:center;
+}
+
+.section h2{
+color:#d4af37;
+margin-bottom:25px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+max-width:1100px;
+margin:auto;
+}
+
+.card{
+background:#161616;
+padding:25px;
+border-radius:15px;
+border:1px solid #d4af37;
+}
+
+form{
+max-width:700px;
+margin:auto;
+}
+
+input,select,textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:8px;
+}
+
+button{
+width:100%;
+padding:14px;
+background:#d4af37;
+border:none;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+footer{
+background:#000;
+padding:20px;
+text-align:center;
+border-top:2px solid #d4af37;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">SPOTLIGHT DANCE ACADEMY</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#courses">Courses</a>
+<a href="#register">Register</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>SPOTLIGHT DANCE ACADEMY</h1>
+<p>Where Passion Meets Perfection</p>
+<p>Dance • Yoga • Zumba • Aerobics • Skipping</p>
+
+<a href="#register" class="btn">Register Now</a>
+
+</div>
+</section>
+
+<section class="section" id="about">
+<h2>About Us / हमारे बारे में</h2>
+
+<p>
+SPOTLIGHT DANCE ACADEMY welcomes students of all ages.
+We provide Dance, Yoga, Zumba, Aerobics and Fitness Training.
+<br><br>
+हम सभी आयु वर्ग के विद्यार्थियों को डांस और फिटनेस की ट्रेनिंग प्रदान करते हैं।
+</p>
+</section>
+
+<section class="section" id="courses">
+<h2>Courses & Activities</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Dance Classes</h3>
+<p>Bollywood, Hip-Hop, Bhangra & Contemporary</p>
+</div>
+
+<div class="card">
+<h3>Yoga</h3>
+<p>Mind & Body Balance</p>
+</div>
+
+<div class="card">
+<h3>Zumba</h3>
+<p>Fun Fitness Sessions</p>
+</div>
+
+<div class="card">
+<h3>Aerobics</h3>
+<p>Improve Stamina & Fitness</p>
+</div>
+
+<div class="card">
+<h3>Skipping</h3>
+<p>Cardio & Weight Management</p>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="register">
+<h2>Online Registration</h2>
+
+<form>
+
+<input type="text" placeholder="Full Name / पूरा नाम" required>
+
+<input type="text" placeholder="Parent Name / माता-पिता का नाम">
+
+<input type="tel" placeholder="Mobile Number" required>
+
+<input type="email" placeholder="Email Address">
+
+<textarea placeholder="Address / पता"></textarea>
+
+<input type="date">
+
+<select>
+<option>Select Gender</option>
+<option>Male</option>
+<option>Female</option>
+</select>
+
+<select>
+<option>Select Course</option>
+<option>Dance</option>
+<option>Yoga</option>
+<option>Zumba</option>
+<option>Aerobics</option>
+<option>Skipping</option>
+</select>
+
+<select>
+<option>Experience Level</option>
+<option>Beginner</option>
+<option>Intermediate</option>
+<option>Advanced</option>
+</select>
+
+<input type="file">
+
+<button type="submit">Submit Registration</button>
+
+</form>
+</section>
+
+<section class="section" id="contact">
+
+<h2>Contact Us</h2>
+
+<p>📞 70064 32003</p>
+<p>📞 91495 28588</p>
+
+<p>📧 ashwaniash700@gmail.com</p>
+
+<p>
+📍 Talab, Barnai, Dharmal,
+Jammu, Jammu & Kashmir - 180005
+</p>
+
+<p>
+Instagram:
+@ashwanikumar6115danceguru
+</p>
+
+</section>
+
+<footer>
+© 2026 SPOTLIGHT DANCE ACADEMY | All Rights Reserved
+</footer>
+
+</body>
+</html>
